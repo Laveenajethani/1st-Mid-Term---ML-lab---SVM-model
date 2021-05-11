@@ -7,8 +7,8 @@ import pandas as pd
 st.set_option('deprecation.showfileUploaderEncoding', False)
 
 # Load the pickled model
-model = pickle.load(open('/content/drive/My Drive/3rd year/6th sem/ML lab/Ist Mid Term Lab/svmmodel.pkl', 'rb')) 
-dataset= pd.read_csv('/content/drive/My Drive/3rd year/6th sem/ML lab/Ist Mid Term Lab/Classification Dataset2.csv')
+model = pickle.load(open('svmmodel.pkl', 'rb')) 
+dataset= pd.read_csv('Classification Dataset2.csv')
 
 # Extracting dependent and independent variables:
 # Extracting independent variable:
